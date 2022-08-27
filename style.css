@@ -4,8 +4,8 @@
 }
 
 body{
-    background-color: blanchedalmond;
-    padding: 1rem;
+    /* background-color: blanchedalmond; */
+    /* padding: 1rem; */
 
 }
 .head{
@@ -13,6 +13,7 @@ body{
     height: 90vh;
     display: flex;
     flex-direction: column;
+    padding: 0 2rem;
 }
 .header{
     display: flex;
@@ -28,9 +29,7 @@ body{
     font-weight: 900;
     color:  #F9FAF8;
 }
-.nav-links{
-    
-}
+
 .nav-links ul{
     list-style: none;
     display: flex;
@@ -47,10 +46,11 @@ body{
     height: 70vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-between;
+    gap: 18rem;
+    /* margin: 1rem 4rem; */
 }
-.left{
+.left, .right{
     width: 50%;
     
 }
@@ -74,13 +74,109 @@ body{
     margin: 10px 0;
 }
 
+.img-main{
+    /* padding: 4rem; */
+}
+.img{
+    width: 80%;
+    margin: auto;
+    /* height: auto; */
+}
 
-.right{
-    width: 50%;
+.services{
+    width: 100%;
+    height: 70vh;
+}
+.title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.card{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px 15px;
+}
+.cards img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.cards p{
+    text-align: justify;
+    padding: 4px 15px
+}
+
+.alumini{
+    
+    background-color: #E5E7EB;
+}
+
+.remarks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+#quote{
+    margin: 30px 150px 0 150px;
+    text-align: justify;
+    font-size: 23px;
+    font-style: italic;
+    color: #1F2937;
+}
+#name{
+    text-align: right;
+    width: 77%;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.connect{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action{
+    width: 60%;
+    height: 50%;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3.5rem;
+    border-radius: 10px;
+}
+#h, #p{
+    color: #F9FAF8;
+}
+.btn-signin{
+    border: 1px solid #F9FAF8;
     
 }
 
-.img{
-    width: 80%;
-    height: auto;
+.footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
 }
